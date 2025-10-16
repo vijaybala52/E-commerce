@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+.header{
+    background: rgb(148, 243, 129);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 15px rgb(235, 243, 235);
+}
+
+
+.logoclass{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.shoppingclass{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.menuclass{
+    display: flex;
+    align-items:end;
+    margin-right: 40px;
+    column-gap: 20px;
+    font-size: 16px; 
+}
+.menuclass span:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: 2px 2px 2px rgb(0, 105, 32);  
+}
+
+.titlecart{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    background-color: rgb(231, 231, 231);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.titlecart p{
+    display: flex;
+}
+.addcart{
+    min-height: 160px;
+}
+.detailbox{
+    margin-top: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding-top: 50px;
+    background-color: rgb(148, 243, 129);
+    padding-bottom: 40px;
+}
+.contactdetail p{
+    font-weight: bold;
+}
+.shopname{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+.contactdetail span{
+    font-weight: normal;
+}
+.titlename{
+    padding-bottom: 10px;
+}
+.contactname{
+    padding-bottom: 10px;
+}
+h6{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.aboutdetail p{
+    cursor: pointer;
+}
+.myaccountdetail p{
+    cursor: pointer;
+}

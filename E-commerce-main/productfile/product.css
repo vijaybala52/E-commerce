@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+.header{
+    background: rgb(148, 243, 129);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 15px rgb(235, 243, 235);
+}
+.logoclass{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.shoppingclass{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.menuclass{
+    display: flex;
+    align-items:end;
+    margin-right: 40px;
+    column-gap: 20px;
+    font-size: 16px; 
+}
+.menuclass span:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: 2px 2px 2px rgb(0, 105, 32);  
+}
+.profile{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(223, 223, 224); 
+}
+.profilename{
+    position: relative;
+    right: 200px;
+}
+.profileimg{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 30px 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 3px 3px rgb(171, 168, 168);
+}
+.profileprice{
+    margin-bottom: 10px;
+}
+.profilename p:first-child{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 10px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(148, 243, 129);
+}
+button:active{
+    color: aliceblue;
+    background-color: black;
+}
+.buy{
+    margin-left: 20px;
+}
+.detailbox{
+    margin-top: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding-top: 50px;
+    background-color: rgb(148, 243, 129);
+    padding-bottom: 40px;
+}
+.contactdetail p{
+    font-weight: bold;
+}
+.shopname{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+.contactdetail span{
+    font-weight: normal;
+}
+.titlename{
+    padding-bottom: 10px;
+}
+.contactname{
+    padding-bottom: 10px;
+}
+h6{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.aboutdetail p{
+    cursor: pointer;
+}
+.myaccountdetail p{
+    cursor: pointer;
+}
